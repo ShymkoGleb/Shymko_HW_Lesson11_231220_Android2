@@ -2,9 +2,7 @@
 
 package com.example.shymko_hw_lesson11_231220_android2
 
-import android.app.Activity
-import android.app.NotificationChannel
-import android.app.NotificationManager
+
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
@@ -14,13 +12,9 @@ import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.renderscript.ScriptGroup
 import android.util.Log
 import androidx.annotation.RequiresApi
-import androidx.core.app.NotificationCompat
 import com.example.shymko_hw_lesson11_231220_android2.databinding.ActivityMainBinding
-import com.google.android.material.snackbar.BaseTransientBottomBar
-import com.google.android.material.snackbar.Snackbar
 
 /*
 1 -  Створити додаток, у якому буде декілька кнопок, які будуть показувати різні типи оповіщень
